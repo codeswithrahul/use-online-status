@@ -1,0 +1,37 @@
+{
+  "name": "is-user-online",
+  "version": "1.0.2",
+  "description": "A React hook to check if the user is online.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeswithrahul/use-online-status.git"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "online-status",
+    "is-user-online"
+  ],
+  "author": "Rahul Chouhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeswithrahul/use-online-status/issues"
+  },
+  "homepage": "https://github.com/codeswithrahul/use-online-status#readme",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9"
+  }
+}
